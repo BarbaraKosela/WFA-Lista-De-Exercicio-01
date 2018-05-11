@@ -16,7 +16,8 @@ namespace WFAListaDeExercicio01
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new FORMEXERCICIO01());
+            Application.Run(new Principal());
+
         }
     }
 }

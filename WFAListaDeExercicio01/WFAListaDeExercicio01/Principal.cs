@@ -22,5 +22,11 @@ namespace WFAListaDeExercicio01
             FORMEXERCICIO01 exemplo01 = new FORMEXERCICIO01();
             exemplo01.Show();
         }
+
+        private void BTNEXERCICIO02_Click(object sender, EventArgs e)
+        {
+            Exercicio02 exercicio02 = new Exercicio02();
+            exercicio02.Show();
+        }
     }
 }
