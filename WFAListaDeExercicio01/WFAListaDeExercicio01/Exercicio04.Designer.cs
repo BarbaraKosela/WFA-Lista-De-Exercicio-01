@@ -90,6 +90,7 @@
             this.BTNCHECAR.TabIndex = 5;
             this.BTNCHECAR.Text = "FAZER A MULTIPLICAÇÃO";
             this.BTNCHECAR.UseVisualStyleBackColor = true;
+            this.BTNCHECAR.Click += new System.EventHandler(this.BTNCHECAR_Click);
             // 
             // Exercicio04
             // 
