@@ -38,12 +38,13 @@
             this.BTNEXERCICIO08 = new System.Windows.Forms.Button();
             this.BTNEXERCICIO09 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
+            this.btnexercicio11 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // button1
             // 
             this.button1.Font = new System.Drawing.Font("Square721 BT", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(59, 12);
+            this.button1.Location = new System.Drawing.Point(16, 13);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(162, 47);
             this.button1.TabIndex = 0;
@@ -54,7 +55,7 @@
             // BTNEXERCICIO02
             // 
             this.BTNEXERCICIO02.Font = new System.Drawing.Font("Square721 BT", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BTNEXERCICIO02.Location = new System.Drawing.Point(59, 65);
+            this.BTNEXERCICIO02.Location = new System.Drawing.Point(16, 66);
             this.BTNEXERCICIO02.Name = "BTNEXERCICIO02";
             this.BTNEXERCICIO02.Size = new System.Drawing.Size(162, 47);
             this.BTNEXERCICIO02.TabIndex = 1;
@@ -65,7 +66,7 @@
             // BTNEXERCICIO03
             // 
             this.BTNEXERCICIO03.Font = new System.Drawing.Font("Square721 BT", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BTNEXERCICIO03.Location = new System.Drawing.Point(59, 118);
+            this.BTNEXERCICIO03.Location = new System.Drawing.Point(16, 119);
             this.BTNEXERCICIO03.Name = "BTNEXERCICIO03";
             this.BTNEXERCICIO03.Size = new System.Drawing.Size(162, 47);
             this.BTNEXERCICIO03.TabIndex = 2;
@@ -76,7 +77,7 @@
             // BTNEXERCICIO04
             // 
             this.BTNEXERCICIO04.Font = new System.Drawing.Font("Square721 BT", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BTNEXERCICIO04.Location = new System.Drawing.Point(59, 171);
+            this.BTNEXERCICIO04.Location = new System.Drawing.Point(16, 172);
             this.BTNEXERCICIO04.Name = "BTNEXERCICIO04";
             this.BTNEXERCICIO04.Size = new System.Drawing.Size(162, 47);
             this.BTNEXERCICIO04.TabIndex = 3;
@@ -87,7 +88,7 @@
             // BTNEXERCICIO05
             // 
             this.BTNEXERCICIO05.Font = new System.Drawing.Font("Square721 BT", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BTNEXERCICIO05.Location = new System.Drawing.Point(59, 224);
+            this.BTNEXERCICIO05.Location = new System.Drawing.Point(16, 225);
             this.BTNEXERCICIO05.Name = "BTNEXERCICIO05";
             this.BTNEXERCICIO05.Size = new System.Drawing.Size(162, 47);
             this.BTNEXERCICIO05.TabIndex = 4;
@@ -98,7 +99,7 @@
             // BTNEXERCICIO06
             // 
             this.BTNEXERCICIO06.Font = new System.Drawing.Font("Square721 BT", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BTNEXERCICIO06.Location = new System.Drawing.Point(227, 12);
+            this.BTNEXERCICIO06.Location = new System.Drawing.Point(16, 278);
             this.BTNEXERCICIO06.Name = "BTNEXERCICIO06";
             this.BTNEXERCICIO06.Size = new System.Drawing.Size(162, 47);
             this.BTNEXERCICIO06.TabIndex = 5;
@@ -109,7 +110,7 @@
             // BTNEXERCICIO7
             // 
             this.BTNEXERCICIO7.Font = new System.Drawing.Font("Square721 BT", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BTNEXERCICIO7.Location = new System.Drawing.Point(227, 65);
+            this.BTNEXERCICIO7.Location = new System.Drawing.Point(184, 13);
             this.BTNEXERCICIO7.Name = "BTNEXERCICIO7";
             this.BTNEXERCICIO7.Size = new System.Drawing.Size(162, 47);
             this.BTNEXERCICIO7.TabIndex = 6;
@@ -120,7 +121,7 @@
             // BTNEXERCICIO08
             // 
             this.BTNEXERCICIO08.Font = new System.Drawing.Font("Square721 BT", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BTNEXERCICIO08.Location = new System.Drawing.Point(227, 118);
+            this.BTNEXERCICIO08.Location = new System.Drawing.Point(184, 66);
             this.BTNEXERCICIO08.Name = "BTNEXERCICIO08";
             this.BTNEXERCICIO08.Size = new System.Drawing.Size(162, 47);
             this.BTNEXERCICIO08.TabIndex = 7;
@@ -131,7 +132,7 @@
             // BTNEXERCICIO09
             // 
             this.BTNEXERCICIO09.Font = new System.Drawing.Font("Square721 BT", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BTNEXERCICIO09.Location = new System.Drawing.Point(227, 171);
+            this.BTNEXERCICIO09.Location = new System.Drawing.Point(184, 119);
             this.BTNEXERCICIO09.Name = "BTNEXERCICIO09";
             this.BTNEXERCICIO09.Size = new System.Drawing.Size(162, 47);
             this.BTNEXERCICIO09.TabIndex = 8;
@@ -142,7 +143,7 @@
             // button2
             // 
             this.button2.Font = new System.Drawing.Font("Square721 BT", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Location = new System.Drawing.Point(227, 224);
+            this.button2.Location = new System.Drawing.Point(184, 172);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(162, 47);
             this.button2.TabIndex = 9;
@@ -150,11 +151,23 @@
             this.button2.UseVisualStyleBackColor = true;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
+            // btnexercicio11
+            // 
+            this.btnexercicio11.Font = new System.Drawing.Font("Square721 BT", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnexercicio11.Location = new System.Drawing.Point(184, 225);
+            this.btnexercicio11.Name = "btnexercicio11";
+            this.btnexercicio11.Size = new System.Drawing.Size(162, 47);
+            this.btnexercicio11.TabIndex = 10;
+            this.btnexercicio11.Text = "EXERCÍCIO 11";
+            this.btnexercicio11.UseVisualStyleBackColor = true;
+            this.btnexercicio11.Click += new System.EventHandler(this.btnexercicio11_Click);
+            // 
             // Principal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(569, 404);
+            this.ClientSize = new System.Drawing.Size(360, 344);
+            this.Controls.Add(this.btnexercicio11);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.BTNEXERCICIO09);
             this.Controls.Add(this.BTNEXERCICIO08);
@@ -184,5 +197,6 @@
         private System.Windows.Forms.Button BTNEXERCICIO08;
         private System.Windows.Forms.Button BTNEXERCICIO09;
         private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button btnexercicio11;
     }
 }
