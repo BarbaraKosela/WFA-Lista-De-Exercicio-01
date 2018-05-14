@@ -36,6 +36,8 @@
             this.BTNEXERCICIO06 = new System.Windows.Forms.Button();
             this.BTNEXERCICIO7 = new System.Windows.Forms.Button();
             this.BTNEXERCICIO08 = new System.Windows.Forms.Button();
+            this.BTNEXERCICIO09 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // button1
@@ -96,7 +98,7 @@
             // BTNEXERCICIO06
             // 
             this.BTNEXERCICIO06.Font = new System.Drawing.Font("Square721 BT", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BTNEXERCICIO06.Location = new System.Drawing.Point(59, 277);
+            this.BTNEXERCICIO06.Location = new System.Drawing.Point(227, 12);
             this.BTNEXERCICIO06.Name = "BTNEXERCICIO06";
             this.BTNEXERCICIO06.Size = new System.Drawing.Size(162, 47);
             this.BTNEXERCICIO06.TabIndex = 5;
@@ -107,7 +109,7 @@
             // BTNEXERCICIO7
             // 
             this.BTNEXERCICIO7.Font = new System.Drawing.Font("Square721 BT", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BTNEXERCICIO7.Location = new System.Drawing.Point(59, 330);
+            this.BTNEXERCICIO7.Location = new System.Drawing.Point(227, 65);
             this.BTNEXERCICIO7.Name = "BTNEXERCICIO7";
             this.BTNEXERCICIO7.Size = new System.Drawing.Size(162, 47);
             this.BTNEXERCICIO7.TabIndex = 6;
@@ -118,7 +120,7 @@
             // BTNEXERCICIO08
             // 
             this.BTNEXERCICIO08.Font = new System.Drawing.Font("Square721 BT", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BTNEXERCICIO08.Location = new System.Drawing.Point(227, 12);
+            this.BTNEXERCICIO08.Location = new System.Drawing.Point(227, 118);
             this.BTNEXERCICIO08.Name = "BTNEXERCICIO08";
             this.BTNEXERCICIO08.Size = new System.Drawing.Size(162, 47);
             this.BTNEXERCICIO08.TabIndex = 7;
@@ -126,11 +128,35 @@
             this.BTNEXERCICIO08.UseVisualStyleBackColor = true;
             this.BTNEXERCICIO08.Click += new System.EventHandler(this.BTNEXERCICIO08_Click);
             // 
+            // BTNEXERCICIO09
+            // 
+            this.BTNEXERCICIO09.Font = new System.Drawing.Font("Square721 BT", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BTNEXERCICIO09.Location = new System.Drawing.Point(227, 171);
+            this.BTNEXERCICIO09.Name = "BTNEXERCICIO09";
+            this.BTNEXERCICIO09.Size = new System.Drawing.Size(162, 47);
+            this.BTNEXERCICIO09.TabIndex = 8;
+            this.BTNEXERCICIO09.Text = "EXERCÍCIO 09";
+            this.BTNEXERCICIO09.UseVisualStyleBackColor = true;
+            this.BTNEXERCICIO09.Click += new System.EventHandler(this.BTNEXERCICIO09_Click);
+            // 
+            // button2
+            // 
+            this.button2.Font = new System.Drawing.Font("Square721 BT", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button2.Location = new System.Drawing.Point(227, 224);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(162, 47);
+            this.button2.TabIndex = 9;
+            this.button2.Text = "EXERCÍCIO 10";
+            this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
+            // 
             // Principal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(569, 404);
+            this.Controls.Add(this.button2);
+            this.Controls.Add(this.BTNEXERCICIO09);
             this.Controls.Add(this.BTNEXERCICIO08);
             this.Controls.Add(this.BTNEXERCICIO7);
             this.Controls.Add(this.BTNEXERCICIO06);
@@ -156,5 +182,7 @@
         private System.Windows.Forms.Button BTNEXERCICIO06;
         private System.Windows.Forms.Button BTNEXERCICIO7;
         private System.Windows.Forms.Button BTNEXERCICIO08;
+        private System.Windows.Forms.Button BTNEXERCICIO09;
+        private System.Windows.Forms.Button button2;
     }
 }

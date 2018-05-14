@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Exercicio05));
             this.LABELNOMECARRO = new System.Windows.Forms.Label();
             this.LABELVALORCARRO = new System.Windows.Forms.Label();
             this.LABELVALORPARCELA = new System.Windows.Forms.Label();
@@ -44,7 +45,9 @@
             // LABELNOMECARRO
             // 
             this.LABELNOMECARRO.AutoSize = true;
+            this.LABELNOMECARRO.BackColor = System.Drawing.Color.SteelBlue;
             this.LABELNOMECARRO.Font = new System.Drawing.Font("Square721 BT", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LABELNOMECARRO.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.LABELNOMECARRO.Location = new System.Drawing.Point(12, 9);
             this.LABELNOMECARRO.Name = "LABELNOMECARRO";
             this.LABELNOMECARRO.Size = new System.Drawing.Size(161, 20);
@@ -54,7 +57,9 @@
             // LABELVALORCARRO
             // 
             this.LABELVALORCARRO.AutoSize = true;
+            this.LABELVALORCARRO.BackColor = System.Drawing.Color.SteelBlue;
             this.LABELVALORCARRO.Font = new System.Drawing.Font("Square721 BT", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LABELVALORCARRO.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.LABELVALORCARRO.Location = new System.Drawing.Point(12, 64);
             this.LABELVALORCARRO.Name = "LABELVALORCARRO";
             this.LABELVALORCARRO.Size = new System.Drawing.Size(165, 20);
@@ -64,7 +69,9 @@
             // LABELVALORPARCELA
             // 
             this.LABELVALORPARCELA.AutoSize = true;
+            this.LABELVALORPARCELA.BackColor = System.Drawing.Color.SteelBlue;
             this.LABELVALORPARCELA.Font = new System.Drawing.Font("Square721 BT", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LABELVALORPARCELA.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.LABELVALORPARCELA.Location = new System.Drawing.Point(12, 121);
             this.LABELVALORPARCELA.Name = "LABELVALORPARCELA";
             this.LABELVALORPARCELA.Size = new System.Drawing.Size(239, 20);
@@ -74,7 +81,9 @@
             // LABELQTDPARCELAS
             // 
             this.LABELQTDPARCELAS.AutoSize = true;
+            this.LABELQTDPARCELAS.BackColor = System.Drawing.Color.SteelBlue;
             this.LABELQTDPARCELAS.Font = new System.Drawing.Font("Square721 BT", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LABELQTDPARCELAS.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.LABELQTDPARCELAS.Location = new System.Drawing.Point(12, 177);
             this.LABELQTDPARCELAS.Name = "LABELQTDPARCELAS";
             this.LABELQTDPARCELAS.Size = new System.Drawing.Size(253, 20);
@@ -112,7 +121,9 @@
             // LABELRESULTADO
             // 
             this.LABELRESULTADO.AutoSize = true;
+            this.LABELRESULTADO.BackColor = System.Drawing.Color.SlateGray;
             this.LABELRESULTADO.Font = new System.Drawing.Font("Square721 BT", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LABELRESULTADO.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.LABELRESULTADO.Location = new System.Drawing.Point(13, 323);
             this.LABELRESULTADO.Name = "LABELRESULTADO";
             this.LABELRESULTADO.Size = new System.Drawing.Size(208, 16);
@@ -129,19 +140,22 @@
             // 
             // BTNGERARRESULTADO
             // 
+            this.BTNGERARRESULTADO.BackColor = System.Drawing.Color.SlateGray;
             this.BTNGERARRESULTADO.Font = new System.Drawing.Font("Square721 BT", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BTNGERARRESULTADO.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.BTNGERARRESULTADO.Location = new System.Drawing.Point(12, 234);
             this.BTNGERARRESULTADO.Name = "BTNGERARRESULTADO";
             this.BTNGERARRESULTADO.Size = new System.Drawing.Size(260, 70);
             this.BTNGERARRESULTADO.TabIndex = 10;
             this.BTNGERARRESULTADO.Text = "GERAR RESULTADO";
-            this.BTNGERARRESULTADO.UseVisualStyleBackColor = true;
+            this.BTNGERARRESULTADO.UseVisualStyleBackColor = false;
             this.BTNGERARRESULTADO.Click += new System.EventHandler(this.BTNGERARRESULTADO_Click);
             // 
             // Exercicio05
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(284, 466);
             this.Controls.Add(this.BTNGERARRESULTADO);
             this.Controls.Add(this.TXTRESULTADO);

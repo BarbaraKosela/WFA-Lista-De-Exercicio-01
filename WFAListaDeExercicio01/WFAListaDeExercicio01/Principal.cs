@@ -65,5 +65,17 @@ namespace WFAListaDeExercicio01
             exercicio08.Show();
         }
 
+        private void BTNEXERCICIO09_Click(object sender, EventArgs e)
+        {
+            Exercicio09 exercicio09 = new Exercicio09();
+            exercicio09.Show();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Exercicio10 exercicio10 = new Exercicio10();
+            exercicio10.Show();
+        }
+
     }
 }

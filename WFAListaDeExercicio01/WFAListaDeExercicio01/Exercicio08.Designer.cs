@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Exercicio08));
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
@@ -54,7 +55,9 @@
             // label1
             // 
             this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.MediumOrchid;
             this.label1.Font = new System.Drawing.Font("Square721 BT", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.label1.Location = new System.Drawing.Point(12, 9);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(122, 16);
@@ -65,7 +68,9 @@
             // label2
             // 
             this.label2.AutoSize = true;
+            this.label2.BackColor = System.Drawing.Color.MediumOrchid;
             this.label2.Font = new System.Drawing.Font("Square721 BT", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.label2.Location = new System.Drawing.Point(12, 52);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(135, 16);
@@ -75,7 +80,9 @@
             // label3
             // 
             this.label3.AutoSize = true;
+            this.label3.BackColor = System.Drawing.Color.MediumOrchid;
             this.label3.Font = new System.Drawing.Font("Square721 BT", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.label3.Location = new System.Drawing.Point(11, 99);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(123, 16);
@@ -86,7 +93,9 @@
             // label4
             // 
             this.label4.AutoSize = true;
+            this.label4.BackColor = System.Drawing.Color.MediumOrchid;
             this.label4.Font = new System.Drawing.Font("Square721 BT", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.label4.Location = new System.Drawing.Point(11, 146);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(130, 16);
@@ -96,7 +105,9 @@
             // label5
             // 
             this.label5.AutoSize = true;
+            this.label5.BackColor = System.Drawing.Color.MediumOrchid;
             this.label5.Font = new System.Drawing.Font("Square721 BT", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.label5.Location = new System.Drawing.Point(12, 192);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(110, 16);
@@ -106,7 +117,9 @@
             // label6
             // 
             this.label6.AutoSize = true;
+            this.label6.BackColor = System.Drawing.Color.MediumOrchid;
             this.label6.Font = new System.Drawing.Font("Square721 BT", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.label6.Location = new System.Drawing.Point(11, 235);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(127, 16);
@@ -116,7 +129,9 @@
             // label7
             // 
             this.label7.AutoSize = true;
+            this.label7.BackColor = System.Drawing.Color.MediumOrchid;
             this.label7.Font = new System.Drawing.Font("Square721 BT", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.label7.Location = new System.Drawing.Point(11, 279);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(129, 16);
@@ -175,56 +190,66 @@
             // RBVALORTELEFONE
             // 
             this.RBVALORTELEFONE.AutoSize = true;
+            this.RBVALORTELEFONE.BackColor = System.Drawing.Color.Purple;
             this.RBVALORTELEFONE.Font = new System.Drawing.Font("Square721 BT", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.RBVALORTELEFONE.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.RBVALORTELEFONE.Location = new System.Drawing.Point(171, 22);
             this.RBVALORTELEFONE.Name = "RBVALORTELEFONE";
-            this.RBVALORTELEFONE.Size = new System.Drawing.Size(388, 26);
+            this.RBVALORTELEFONE.Size = new System.Drawing.Size(381, 26);
             this.RBVALORTELEFONE.TabIndex = 12;
             this.RBVALORTELEFONE.TabStop = true;
-            this.RBVALORTELEFONE.Text = "VALOR DAS CONTAS DE TELEFONE:";
-            this.RBVALORTELEFONE.UseVisualStyleBackColor = true;
+            this.RBVALORTELEFONE.Text = "VALOR DAS CONTAS DE TELEFONE";
+            this.RBVALORTELEFONE.UseVisualStyleBackColor = false;
             this.RBVALORTELEFONE.CheckedChanged += new System.EventHandler(this.radioButton1_CheckedChanged);
             // 
             // RBVALORIMPOSTO
             // 
             this.RBVALORIMPOSTO.AutoSize = true;
+            this.RBVALORIMPOSTO.BackColor = System.Drawing.Color.Purple;
             this.RBVALORIMPOSTO.Font = new System.Drawing.Font("Square721 BT", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.RBVALORIMPOSTO.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.RBVALORIMPOSTO.Location = new System.Drawing.Point(171, 71);
             this.RBVALORIMPOSTO.Name = "RBVALORIMPOSTO";
-            this.RBVALORIMPOSTO.Size = new System.Drawing.Size(389, 26);
+            this.RBVALORIMPOSTO.Size = new System.Drawing.Size(382, 26);
             this.RBVALORIMPOSTO.TabIndex = 13;
             this.RBVALORIMPOSTO.TabStop = true;
-            this.RBVALORIMPOSTO.Text = "VALOR DAS CONTAS DE IMPOSTOS:";
-            this.RBVALORIMPOSTO.UseVisualStyleBackColor = true;
+            this.RBVALORIMPOSTO.Text = "VALOR DAS CONTAS DE IMPOSTOS";
+            this.RBVALORIMPOSTO.UseVisualStyleBackColor = false;
             // 
             // RBVALOREXTRAS
             // 
             this.RBVALOREXTRAS.AutoSize = true;
+            this.RBVALOREXTRAS.BackColor = System.Drawing.Color.Purple;
             this.RBVALOREXTRAS.Font = new System.Drawing.Font("Square721 BT", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.RBVALOREXTRAS.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.RBVALOREXTRAS.Location = new System.Drawing.Point(171, 118);
             this.RBVALOREXTRAS.Name = "RBVALOREXTRAS";
-            this.RBVALOREXTRAS.Size = new System.Drawing.Size(328, 26);
+            this.RBVALOREXTRAS.Size = new System.Drawing.Size(321, 26);
             this.RBVALOREXTRAS.TabIndex = 14;
             this.RBVALOREXTRAS.TabStop = true;
-            this.RBVALOREXTRAS.Text = "VALOR DAS CONTAS EXTRAS:";
-            this.RBVALOREXTRAS.UseVisualStyleBackColor = true;
+            this.RBVALOREXTRAS.Text = "VALOR DAS CONTAS EXTRAS";
+            this.RBVALOREXTRAS.UseVisualStyleBackColor = false;
             // 
             // RBTOTAL
             // 
             this.RBTOTAL.AutoSize = true;
+            this.RBTOTAL.BackColor = System.Drawing.Color.Purple;
             this.RBTOTAL.Font = new System.Drawing.Font("Square721 BT", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.RBTOTAL.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.RBTOTAL.Location = new System.Drawing.Point(171, 165);
             this.RBTOTAL.Name = "RBTOTAL";
-            this.RBTOTAL.Size = new System.Drawing.Size(181, 26);
+            this.RBTOTAL.Size = new System.Drawing.Size(174, 26);
             this.RBTOTAL.TabIndex = 15;
             this.RBTOTAL.TabStop = true;
-            this.RBTOTAL.Text = "VALOR TOTAL: ";
-            this.RBTOTAL.UseVisualStyleBackColor = true;
+            this.RBTOTAL.Text = "VALOR TOTAL:";
+            this.RBTOTAL.UseVisualStyleBackColor = false;
             // 
             // label8
             // 
             this.label8.AutoSize = true;
+            this.label8.BackColor = System.Drawing.Color.MediumOrchid;
             this.label8.Font = new System.Drawing.Font("Square721 BT", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label8.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.label8.Location = new System.Drawing.Point(11, 321);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(229, 16);
@@ -241,19 +266,22 @@
             // 
             // button1
             // 
+            this.button1.BackColor = System.Drawing.Color.Purple;
             this.button1.Font = new System.Drawing.Font("Square721 BT", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.button1.Location = new System.Drawing.Point(12, 381);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(228, 48);
             this.button1.TabIndex = 18;
             this.button1.Text = "CHECAR RESULTADO";
-            this.button1.UseVisualStyleBackColor = true;
+            this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // Exercicio08
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(571, 435);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.TXTVALORSEGURO);

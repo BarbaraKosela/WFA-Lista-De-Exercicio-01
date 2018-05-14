@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Exercicio04));
             this.LABELTABUADA = new System.Windows.Forms.Label();
             this.LABELNUMERO = new System.Windows.Forms.Label();
             this.TXTNUMERO = new System.Windows.Forms.TextBox();
@@ -39,7 +40,9 @@
             // LABELTABUADA
             // 
             this.LABELTABUADA.AutoSize = true;
+            this.LABELTABUADA.BackColor = System.Drawing.Color.Salmon;
             this.LABELTABUADA.Font = new System.Drawing.Font("Square721 BT", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LABELTABUADA.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.LABELTABUADA.Location = new System.Drawing.Point(12, 9);
             this.LABELTABUADA.Name = "LABELTABUADA";
             this.LABELTABUADA.Size = new System.Drawing.Size(145, 29);
@@ -49,7 +52,9 @@
             // LABELNUMERO
             // 
             this.LABELNUMERO.AutoSize = true;
+            this.LABELNUMERO.BackColor = System.Drawing.Color.Salmon;
             this.LABELNUMERO.Font = new System.Drawing.Font("Square721 BT", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LABELNUMERO.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.LABELNUMERO.Location = new System.Drawing.Point(14, 38);
             this.LABELNUMERO.Name = "LABELNUMERO";
             this.LABELNUMERO.Size = new System.Drawing.Size(155, 16);
@@ -74,7 +79,9 @@
             // LABELRESULTADO
             // 
             this.LABELRESULTADO.AutoSize = true;
+            this.LABELRESULTADO.BackColor = System.Drawing.Color.Salmon;
             this.LABELRESULTADO.Font = new System.Drawing.Font("Square721 BT", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LABELRESULTADO.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.LABELRESULTADO.Location = new System.Drawing.Point(14, 124);
             this.LABELRESULTADO.Name = "LABELRESULTADO";
             this.LABELRESULTADO.Size = new System.Drawing.Size(129, 16);
@@ -83,19 +90,22 @@
             // 
             // BTNCHECAR
             // 
+            this.BTNCHECAR.BackColor = System.Drawing.Color.Salmon;
             this.BTNCHECAR.Font = new System.Drawing.Font("Square721 BT", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BTNCHECAR.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.BTNCHECAR.Location = new System.Drawing.Point(17, 83);
             this.BTNCHECAR.Name = "BTNCHECAR";
             this.BTNCHECAR.Size = new System.Drawing.Size(187, 35);
             this.BTNCHECAR.TabIndex = 5;
             this.BTNCHECAR.Text = "FAZER A MULTIPLICAÇÃO";
-            this.BTNCHECAR.UseVisualStyleBackColor = true;
+            this.BTNCHECAR.UseVisualStyleBackColor = false;
             this.BTNCHECAR.Click += new System.EventHandler(this.BTNCHECAR_Click);
             // 
             // Exercicio04
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(255, 443);
             this.Controls.Add(this.BTNCHECAR);
             this.Controls.Add(this.LABELRESULTADO);
