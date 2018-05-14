@@ -42,10 +42,10 @@
             this.TXTVALORVIVO = new System.Windows.Forms.TextBox();
             this.TXTVALORIPTU = new System.Windows.Forms.TextBox();
             this.TXTVALORIPVA = new System.Windows.Forms.TextBox();
-            this.radioButton1 = new System.Windows.Forms.RadioButton();
-            this.radioButton2 = new System.Windows.Forms.RadioButton();
-            this.radioButton3 = new System.Windows.Forms.RadioButton();
-            this.radioButton4 = new System.Windows.Forms.RadioButton();
+            this.RBVALORTELEFONE = new System.Windows.Forms.RadioButton();
+            this.RBVALORIMPOSTO = new System.Windows.Forms.RadioButton();
+            this.RBVALOREXTRAS = new System.Windows.Forms.RadioButton();
+            this.RBTOTAL = new System.Windows.Forms.RadioButton();
             this.label8 = new System.Windows.Forms.Label();
             this.TXTVALORSEGURO = new System.Windows.Forms.TextBox();
             this.button1 = new System.Windows.Forms.Button();
@@ -109,9 +109,9 @@
             this.label6.Font = new System.Drawing.Font("Square721 BT", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.Location = new System.Drawing.Point(11, 235);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(129, 16);
+            this.label6.Size = new System.Drawing.Size(127, 16);
             this.label6.TabIndex = 5;
-            this.label6.Text = "VALOR DO IPVU: ";
+            this.label6.Text = "VALOR DO IPTU: ";
             // 
             // label7
             // 
@@ -172,54 +172,54 @@
             this.TXTVALORIPVA.Size = new System.Drawing.Size(122, 20);
             this.TXTVALORIPVA.TabIndex = 11;
             // 
-            // radioButton1
+            // RBVALORTELEFONE
             // 
-            this.radioButton1.AutoSize = true;
-            this.radioButton1.Font = new System.Drawing.Font("Square721 BT", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButton1.Location = new System.Drawing.Point(226, 28);
-            this.radioButton1.Name = "radioButton1";
-            this.radioButton1.Size = new System.Drawing.Size(157, 26);
-            this.radioButton1.TabIndex = 12;
-            this.radioButton1.TabStop = true;
-            this.radioButton1.Text = "radioButton1";
-            this.radioButton1.UseVisualStyleBackColor = true;
-            this.radioButton1.CheckedChanged += new System.EventHandler(this.radioButton1_CheckedChanged);
+            this.RBVALORTELEFONE.AutoSize = true;
+            this.RBVALORTELEFONE.Font = new System.Drawing.Font("Square721 BT", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.RBVALORTELEFONE.Location = new System.Drawing.Point(171, 22);
+            this.RBVALORTELEFONE.Name = "RBVALORTELEFONE";
+            this.RBVALORTELEFONE.Size = new System.Drawing.Size(388, 26);
+            this.RBVALORTELEFONE.TabIndex = 12;
+            this.RBVALORTELEFONE.TabStop = true;
+            this.RBVALORTELEFONE.Text = "VALOR DAS CONTAS DE TELEFONE:";
+            this.RBVALORTELEFONE.UseVisualStyleBackColor = true;
+            this.RBVALORTELEFONE.CheckedChanged += new System.EventHandler(this.radioButton1_CheckedChanged);
             // 
-            // radioButton2
+            // RBVALORIMPOSTO
             // 
-            this.radioButton2.AutoSize = true;
-            this.radioButton2.Font = new System.Drawing.Font("Square721 BT", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButton2.Location = new System.Drawing.Point(226, 81);
-            this.radioButton2.Name = "radioButton2";
-            this.radioButton2.Size = new System.Drawing.Size(157, 26);
-            this.radioButton2.TabIndex = 13;
-            this.radioButton2.TabStop = true;
-            this.radioButton2.Text = "radioButton2";
-            this.radioButton2.UseVisualStyleBackColor = true;
+            this.RBVALORIMPOSTO.AutoSize = true;
+            this.RBVALORIMPOSTO.Font = new System.Drawing.Font("Square721 BT", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.RBVALORIMPOSTO.Location = new System.Drawing.Point(171, 71);
+            this.RBVALORIMPOSTO.Name = "RBVALORIMPOSTO";
+            this.RBVALORIMPOSTO.Size = new System.Drawing.Size(389, 26);
+            this.RBVALORIMPOSTO.TabIndex = 13;
+            this.RBVALORIMPOSTO.TabStop = true;
+            this.RBVALORIMPOSTO.Text = "VALOR DAS CONTAS DE IMPOSTOS:";
+            this.RBVALORIMPOSTO.UseVisualStyleBackColor = true;
             // 
-            // radioButton3
+            // RBVALOREXTRAS
             // 
-            this.radioButton3.AutoSize = true;
-            this.radioButton3.Font = new System.Drawing.Font("Square721 BT", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButton3.Location = new System.Drawing.Point(226, 133);
-            this.radioButton3.Name = "radioButton3";
-            this.radioButton3.Size = new System.Drawing.Size(157, 26);
-            this.radioButton3.TabIndex = 14;
-            this.radioButton3.TabStop = true;
-            this.radioButton3.Text = "radioButton3";
-            this.radioButton3.UseVisualStyleBackColor = true;
+            this.RBVALOREXTRAS.AutoSize = true;
+            this.RBVALOREXTRAS.Font = new System.Drawing.Font("Square721 BT", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.RBVALOREXTRAS.Location = new System.Drawing.Point(171, 118);
+            this.RBVALOREXTRAS.Name = "RBVALOREXTRAS";
+            this.RBVALOREXTRAS.Size = new System.Drawing.Size(328, 26);
+            this.RBVALOREXTRAS.TabIndex = 14;
+            this.RBVALOREXTRAS.TabStop = true;
+            this.RBVALOREXTRAS.Text = "VALOR DAS CONTAS EXTRAS:";
+            this.RBVALOREXTRAS.UseVisualStyleBackColor = true;
             // 
-            // radioButton4
+            // RBTOTAL
             // 
-            this.radioButton4.AutoSize = true;
-            this.radioButton4.Font = new System.Drawing.Font("Square721 BT", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButton4.Location = new System.Drawing.Point(226, 188);
-            this.radioButton4.Name = "radioButton4";
-            this.radioButton4.Size = new System.Drawing.Size(157, 26);
-            this.radioButton4.TabIndex = 15;
-            this.radioButton4.TabStop = true;
-            this.radioButton4.Text = "radioButton4";
-            this.radioButton4.UseVisualStyleBackColor = true;
+            this.RBTOTAL.AutoSize = true;
+            this.RBTOTAL.Font = new System.Drawing.Font("Square721 BT", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.RBTOTAL.Location = new System.Drawing.Point(171, 165);
+            this.RBTOTAL.Name = "RBTOTAL";
+            this.RBTOTAL.Size = new System.Drawing.Size(181, 26);
+            this.RBTOTAL.TabIndex = 15;
+            this.RBTOTAL.TabStop = true;
+            this.RBTOTAL.Text = "VALOR TOTAL: ";
+            this.RBTOTAL.UseVisualStyleBackColor = true;
             // 
             // label8
             // 
@@ -241,26 +241,27 @@
             // 
             // button1
             // 
-            this.button1.Font = new System.Drawing.Font("Square721 BT", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(226, 235);
+            this.button1.Font = new System.Drawing.Font("Square721 BT", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.Location = new System.Drawing.Point(12, 381);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(157, 48);
+            this.button1.Size = new System.Drawing.Size(228, 48);
             this.button1.TabIndex = 18;
             this.button1.Text = "CHECAR RESULTADO";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // Exercicio08
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(571, 468);
+            this.ClientSize = new System.Drawing.Size(571, 435);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.TXTVALORSEGURO);
             this.Controls.Add(this.label8);
-            this.Controls.Add(this.radioButton4);
-            this.Controls.Add(this.radioButton3);
-            this.Controls.Add(this.radioButton2);
-            this.Controls.Add(this.radioButton1);
+            this.Controls.Add(this.RBTOTAL);
+            this.Controls.Add(this.RBVALOREXTRAS);
+            this.Controls.Add(this.RBVALORIMPOSTO);
+            this.Controls.Add(this.RBVALORTELEFONE);
             this.Controls.Add(this.TXTVALORIPVA);
             this.Controls.Add(this.TXTVALORIPTU);
             this.Controls.Add(this.TXTVALORNET);
@@ -276,6 +277,7 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Name = "Exercicio08";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Exercicio08";
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -298,10 +300,10 @@
         private System.Windows.Forms.TextBox TXTVALORVIVO;
         private System.Windows.Forms.TextBox TXTVALORIPTU;
         private System.Windows.Forms.TextBox TXTVALORIPVA;
-        private System.Windows.Forms.RadioButton radioButton1;
-        private System.Windows.Forms.RadioButton radioButton2;
-        private System.Windows.Forms.RadioButton radioButton3;
-        private System.Windows.Forms.RadioButton radioButton4;
+        private System.Windows.Forms.RadioButton RBVALORTELEFONE;
+        private System.Windows.Forms.RadioButton RBVALORIMPOSTO;
+        private System.Windows.Forms.RadioButton RBVALOREXTRAS;
+        private System.Windows.Forms.RadioButton RBTOTAL;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.TextBox TXTVALORSEGURO;
         private System.Windows.Forms.Button button1;

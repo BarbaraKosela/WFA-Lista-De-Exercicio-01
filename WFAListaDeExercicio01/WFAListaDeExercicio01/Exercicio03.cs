@@ -57,6 +57,7 @@ namespace WFAListaDeExercicio01
 
         private void ArmazenarInformacao()
         {
+            
             numero1 = Convert.ToInt32(TXTNUMERO1.Text);
             numero2 = Convert.ToInt32(TXTNUMERO2.Text);
         }
