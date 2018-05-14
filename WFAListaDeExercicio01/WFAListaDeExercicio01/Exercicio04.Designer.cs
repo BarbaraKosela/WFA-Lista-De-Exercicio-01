@@ -104,6 +104,7 @@
             this.Controls.Add(this.LABELNUMERO);
             this.Controls.Add(this.LABELTABUADA);
             this.Name = "Exercicio04";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Exercicio04";
             this.ResumeLayout(false);
             this.PerformLayout();

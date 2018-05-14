@@ -62,6 +62,30 @@
     <Compile Include="Exercicio04.Designer.cs">
       <DependentUpon>Exercicio04.cs</DependentUpon>
     </Compile>
+    <Compile Include="Exercicio05.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Exercicio05.Designer.cs">
+      <DependentUpon>Exercicio05.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Exercicio06.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Exercicio06.Designer.cs">
+      <DependentUpon>Exercicio06.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Exercicio07.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Exercicio07.Designer.cs">
+      <DependentUpon>Exercicio07.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Exercicio08.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Exercicio08.Designer.cs">
+      <DependentUpon>Exercicio08.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -84,6 +108,18 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Exercicio04.resx">
       <DependentUpon>Exercicio04.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Exercicio05.resx">
+      <DependentUpon>Exercicio05.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Exercicio06.resx">
+      <DependentUpon>Exercicio06.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Exercicio07.resx">
+      <DependentUpon>Exercicio07.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Exercicio08.resx">
+      <DependentUpon>Exercicio08.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>

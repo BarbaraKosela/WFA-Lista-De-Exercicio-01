@@ -29,7 +29,7 @@ namespace WFAListaDeExercicio01
 
             string textao = "";
             
-            for (int i = 0; i < 10; i++)
+            for (int i = 0; i <= 10; i++)
             {
                 ArmazenarInformacao();
                 double tabuada = numero * i;
