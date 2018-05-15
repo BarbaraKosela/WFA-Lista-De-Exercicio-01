@@ -43,7 +43,18 @@ namespace WFAListaDeExercicio01
 
         private void ArmazenarInformacao()
         {
+            try
+            {
             numero = Convert.ToInt32(TXTNUMERO.Text);
+
+            }
+
+            catch
+            {
+                MessageBox.Show("Digite um número real");
+                TXTNUMERO.Focus();
+                return;
+            }
             
         }
 

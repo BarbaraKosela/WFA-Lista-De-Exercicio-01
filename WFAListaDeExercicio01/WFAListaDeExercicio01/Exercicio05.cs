@@ -38,10 +38,47 @@ namespace WFAListaDeExercicio01
 
         private void ArmazenarInformacoes()
         {
+            
             nomeCarro = TXTNOMECARRO.Text;
-            valorCarro = Convert.ToDouble(TXTVALORCARRO.Text);
-            parcelaCarro = Convert.ToDouble(TXTVALORPARCELA.Text);
-            qtdParcelas = Convert.ToInt32(TXTQTDPARCELA.Text);
+            
+            try
+            {
+                valorCarro = Convert.ToDouble(TXTVALORCARRO.Text);
+            }
+            catch
+            {
+                MessageBox.Show("Digite apenas números neste campo");
+                TXTVALORCARRO.Focus();
+                return;
+            }
+
+            try
+            {
+                parcelaCarro = Convert.ToDouble(TXTVALORPARCELA.Text);
+            }
+            catch
+            {
+                MessageBox.Show("Digite apenas números neste campo");
+                TXTVALORPARCELA.Focus();
+                return;
+            }
+
+            try
+            {
+                qtdParcelas = Convert.ToInt32(TXTQTDPARCELA.Text);
+            }
+            catch
+            {
+                MessageBox.Show("Digite apenas números neste campo");
+                TXTQTDPARCELA.Focus();
+                return;
+            }
+
+
+
+            
+            
+            
         }
     }
 }

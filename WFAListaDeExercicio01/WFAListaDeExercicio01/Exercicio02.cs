@@ -36,10 +36,49 @@ namespace WFAListaDeExercicio01
         }
         private void ArmazenarInformacao()
         {
-            litrosConsumidos = Convert.ToDouble(TXTLITROS.Text);
-            anosConsumidos = Convert.ToInt32(TXTANOS.Text);
-            valorPorLitro = Convert.ToDouble(TXTVALORPORLITRO.Text);
-            quantidadeLitrosConsumidos = (litrosConsumidos * 365 * 17);
+            try
+            {
+                litrosConsumidos = Convert.ToDouble(TXTLITROS.Text);
+
+            }
+
+            catch
+            {
+                MessageBox.Show("Os litros devem apenas conter números reais");
+                TXTLITROS.Focus();
+                return;
+            }
+
+            try
+            {
+                anosConsumidos = Convert.ToInt32(TXTANOS.Text);
+
+            }
+
+            catch
+            {
+                MessageBox.Show("Os anos consumidos devem apenas conter números reais");
+                TXTANOS.Focus();
+                return;
+            }
+                try
+                {
+                    valorPorLitro = Convert.ToDouble(TXTVALORPORLITRO.Text);
+
+                }
+
+                catch
+                {
+                    MessageBox.Show("O valor por litro devem apenas conter números reais");
+                    TXTVALORPORLITRO.Focus();
+                    return;
+                }
+
+
+
+
+                quantidadeLitrosConsumidos = (litrosConsumidos * 365 * 17);
+            
         }
 
         public void QtdLitrosConsumidos()

@@ -31,10 +31,64 @@ namespace WFAListaDeExercicio01
 
         private void ArmazenarInformacoes()
         {
+            try
+            {
             nota1 = Convert.ToDouble(TXTNOTA1.Text);
-            nota2 = Convert.ToDouble(TXTNOTA2.Text);
-            nota3 = Convert.ToDouble(TXTNOTA3.Text);
-            nota4 = Convert.ToDouble(TXTNOTA4.Text);
+
+            }
+
+            catch
+            {
+                MessageBox.Show("Digite a nota corretamente utilizando apenas números");
+                TXTNOTA1.Focus();
+                return;
+            }
+
+            try
+            {
+                nota2 = Convert.ToDouble(TXTNOTA2.Text);
+                
+
+            }
+
+            catch
+            {
+                MessageBox.Show("Digite a nota corretamente utilizando apenas números");
+                TXTNOTA2.Focus();
+                return;
+            }
+
+            try
+            {
+                nota3 = Convert.ToDouble(TXTNOTA3.Text);
+
+
+            }
+
+            catch
+            {
+                MessageBox.Show("Digite a nota corretamente utilizando apenas números");
+                TXTNOTA3.Focus();
+                return;
+            }
+
+            try
+            {
+                nota4 = Convert.ToDouble(TXTNOTA4.Text);
+
+
+            }
+
+            catch
+            {
+                MessageBox.Show("Digite a nota corretamente utilizando apenas números");
+                TXTNOTA4.Focus();
+                return;
+            }
+
+            
+            
+            
         }
     }
 }

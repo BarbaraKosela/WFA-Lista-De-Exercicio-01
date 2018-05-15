@@ -57,9 +57,31 @@ namespace WFAListaDeExercicio01
 
         private void ArmazenarInformacao()
         {
-            
-            numero1 = Convert.ToInt32(TXTNUMERO1.Text);
-            numero2 = Convert.ToInt32(TXTNUMERO2.Text);
+            try
+            {
+                numero1 = Convert.ToInt32(TXTNUMERO1.Text);
+                
+            }
+
+            catch
+            {
+                MessageBox.Show("Escolha um número que seja real");
+                TXTNUMERO1.Focus();
+                return;
+            }
+
+            try
+            {
+                numero2 = Convert.ToInt32(TXTNUMERO2.Text);
+
+            }
+
+            catch
+            {
+                MessageBox.Show("Escolha um número que seja real");
+                TXTNUMERO2.Focus();
+                return;
+            }
         }
 
         public void Somar()

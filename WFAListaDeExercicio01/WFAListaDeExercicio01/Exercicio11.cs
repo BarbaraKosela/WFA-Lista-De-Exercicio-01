@@ -42,11 +42,13 @@ namespace WFAListaDeExercicio01
         {
             try
             {
+                
                 dia = Convert.ToInt32(TXTDIA.Text);
             }
 
             catch
             {
+               
                 MessageBox.Show("Os dias devem apenas conter números reais");
                 TXTDIA.Focus();
                 return;
